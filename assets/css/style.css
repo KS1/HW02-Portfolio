@@ -83,13 +83,13 @@
 .main-sections h2 {
     margin-bottom: 20px;
     flex: 0 0 80%; 
-    font-size: 36px;
+    font-size: 36px;   
 }
 
 .main-sections h2 p {
     margin-bottom: 20px;    
-    font-size: 15px;
-    flex: 0 0 80%;    
+    font-size: 17px;
+    flex: 0 0 80%;     
 }
 
 .main-sections p {
@@ -124,6 +124,10 @@
 
 .backToTop{
     text-align: right;    
+}
+
+.aboutmeParaClass{
+    font-family: var(--theme-font-family);   
 }
 
  /* using media query to adjust the contents if screen width is reduced below 600px */
