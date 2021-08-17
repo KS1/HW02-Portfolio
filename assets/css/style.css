@@ -95,7 +95,7 @@
 .main-sections p {
     margin-bottom: 20px;
     font-size: 20px;
-    flex: 0 0 77%;
+    flex: 0 0 100%;
     padding: 20px;       
 }
 
@@ -103,11 +103,6 @@
     text-align: right;
     margin: 5%;
 }
-
-/* .main-sections p div{
-    text-align: left;
-    margin: 5%;
-} */
 
 /* footer class */
 .footer { 
@@ -140,25 +135,20 @@
 }
 
 .workImage:hover {
-    max-width: 150px;   
+    max-width: 120px;   
 }
 
-.workText {
-    font-size: xx-small;
+.containerClass {
+    display: flex;
+    font-size: small;    
 }
 
 /* Reference - https://www.w3schools.com/howto/howto_css_image_text.asp */
 .container {
     position: relative;
     text-align: center;  
-    color: white; 
-  }
-
-  .bottomCenter {
-    position: absolute; 
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);   
+    color: var(--section-font-color) ;
+    margin: 20%;
   }
 
  /* using media query to adjust the contents if screen width is reduced below 600px */
