@@ -1,7 +1,9 @@
 # 02 Advanced CSS: Portfolio
 
 Application GitHub URL - https://ks1.github.io/HW02-Portfolio/ 
+
 Application GitHub Sourcecode - https://github.com/KS1/HW02-Portfolio 
+
 Screenshot pdf file is uploaded in the sourcecode - Portfolio-screenshot.pdf
 
 ## Completed following tasks
