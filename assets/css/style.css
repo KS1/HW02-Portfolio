@@ -104,6 +104,11 @@
     margin: 5%;
 }
 
+/* .main-sections p div{
+    text-align: left;
+    margin: 5%;
+} */
+
 /* footer class */
 .footer { 
     padding: 30px;
@@ -129,6 +134,32 @@
 .aboutmeParaClass{
     font-family: var(--theme-font-family);   
 }
+
+.workImage {
+    max-width: 80px;   
+}
+
+.workImage:hover {
+    max-width: 150px;   
+}
+
+.workText {
+    font-size: xx-small;
+}
+
+/* Reference - https://www.w3schools.com/howto/howto_css_image_text.asp */
+.container {
+    position: relative;
+    text-align: center;  
+    color: white; 
+  }
+
+  .bottomCenter {
+    position: absolute; 
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+  }
 
  /* using media query to adjust the contents if screen width is reduced below 600px */
 @media only screen and (max-width: 600px) {
